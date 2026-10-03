@@ -629,6 +629,14 @@ html:not([dir="rtl"]) .switch input:checked + .slider::before{transform:translat
 .bn-item.active svg{transform:scale(1.12)}
 .bn-item:active{transform:scale(.94)}
 
+.copyright-footer{
+  padding:1rem;
+  border-top:1px solid var(--line);
+  color:var(--ink-soft);
+  font-size:.8rem;
+  text-align:center;
+}
+
 /* ---------- TOASTS ---------- */
 .toast-wrap{
   position:fixed;bottom:calc(1rem + var(--bn-h));inset-inline:1rem;
